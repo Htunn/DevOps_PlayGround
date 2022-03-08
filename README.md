@@ -16,9 +16,9 @@
 
 > crontab -e
 
-> @daily /home/ubuntu/backup_folder.sh
-> @weekly /home/ubuntu/backup_folder.sh
-> @monthly /home/ubuntu/backup_folder.sh
+* @daily /home/ubuntu/backup_folder.sh
+* @weekly /home/ubuntu/backup_folder.sh
+* @monthly /home/ubuntu/backup_folder.sh
 
 # for mongodb_backup script
 ### how to use script
