@@ -4,9 +4,8 @@
 ![devops](https://technovids.com/us/wp-content/uploads/2020/06/Aws-DevOps-Online-Classes-600x360.png.webp)
 
 
-### for folder_backup script
-
-# how to use script
+# for folder_backup script
+### how to use script
 
 1. first create aws iam user with s3 full access permission
 2. create aws access and secret access for s3 user
@@ -21,9 +20,8 @@
 > @weekly /home/ubuntu/backup_folder.sh
 > @monthly /home/ubuntu/backup_folder.sh
 
-### for mongodb_backup script
-
-# how to use script
+# for mongodb_backup script
+### how to use script
 
 1. first create aws iam user with s3 full access permission
 2. create aws access and secret access for s3 user
