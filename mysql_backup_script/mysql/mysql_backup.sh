@@ -47,7 +47,7 @@ if [ -n "${DB_BACKUP_PATH}" ]; then
 fi
 
 
-# transfer mysqldump file to AlphaSirius AWS S3 Storage
+# transfer mysqldump file to  AWS S3 Storage
 
 aws s3 cp  ${DB_BACKUP_PATH} s3://k8s-backup-htunn --recursive --region ap-southeast-1 --profile s3_upload
 
