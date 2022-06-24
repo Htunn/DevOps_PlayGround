@@ -1,7 +1,7 @@
 # DTD_DevOps
 > **Automate day to day DevOps and SysAdmin Related Tasks with Bash, Python and  AWS CLI**
 
-![devops](https://technovids.com/us/wp-content/uploads/2020/06/Aws-DevOps-Online-Classes-600x360.png.webp)
+![devops](https://media.istockphoto.com/photos/devops-concept-picture-id1339667588?b=1&k=20&m=1339667588&s=170667a&w=0&h=76ssSYlJyLSj6mVwGBUi5QM8twe6Lr5QlNbHoCT_bfg=)
 
 
 # for folder_backup script
