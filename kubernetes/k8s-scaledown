@@ -1,0 +1,28 @@
+#!/usr/bin/bash
+
+read -p "choose-deployment: " deployment
+read -p "replicas_count: " replicas_count
+read -p "k8s-resource-type: " type
+
+# k8s scale down
+
+kubectl scale --replicas=$replicas_count $type/$deployment
+
+# show progress bar
+
+echo -ne '###                    (10%)\r'
+sleep 1
+echo -ne '#####                  (25%)\r'
+sleep 1
+echo -ne '########               (50%)\r'
+sleep 1
+echo -ne '#############          (60%)\r'
+sleep 1
+echo -ne '##################     (75%)\r'
+sleep 1
+echo -ne '######################(100%)\r'
+echo -ne '\n'
+
+# k8s scale down completed
+
+echo "$type $deployment scale down to $replicas_count"

@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+kubectl delete pod $(kubectl get pod | grep -i 'pend' | awk '{print $1}') --force
