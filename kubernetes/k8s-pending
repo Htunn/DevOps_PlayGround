@@ -1,3 +1,7 @@
 #!/usr/bin/bash
 
-kubectl delete pod $(kubectl get pod | grep -i 'pend' | awk '{print $1}') --force
+term=$(kubectl get pod | grep -i 'pend' | awk '{print $1}')
+
+# delete pod stuck in terminating state
+
+kubectl delete pod $term --force
