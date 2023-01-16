@@ -1,0 +1,24 @@
+#!/usr/bin/bash
+
+read -p "status: " status
+
+# delete pod stuck in terminating state
+for i in $(kubectl get pod | grep -i $status | awk '{print $1}');
+   do kubectl delete pod $i;
+	echo -ne '###                    (10%)\r' 
+	sleep 6 
+	echo -ne '#####                  (25%)\r' 
+	sleep 6  
+	echo -ne '########               (50%)\r' 
+	sleep 6
+	echo -ne '#############          (60%)\r'
+	sleep 6
+	echo -ne '##################     (75%)\r'
+	sleep 6
+	echo -ne '######################(100%)\r'
+	echo -ne '\n'
+	echo "$status pods deleted";
+  done
+
+
+
