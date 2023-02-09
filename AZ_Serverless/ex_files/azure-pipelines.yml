@@ -1,0 +1,24 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: publish
+    publishWebProjects: false
+    projects: '**/*.csproj'
+    arguments: '-o $(Build.ArtifactStagingDirectory)/Output'
+    zipAfterPublish: true
+    modifyOutputPath: true
+
+- task: AzureFunctionApp@1
+  inputs:
+    azureSubscription: 'Microsoft Azure Sponsorship(61decfc3-854a-4ab6-a0c8-d0c7a88bd0a9)'
+    appType: 'functionAppLinux'
+    appName: 'thefunctionslinux2'
+    package: '$(Build.ArtifactStagingDirectory)/Output/Photos.zip'
+    runtimeStack: 'DOCKER|microsoft/azure-functions-dotnet-core2.0:2.0'

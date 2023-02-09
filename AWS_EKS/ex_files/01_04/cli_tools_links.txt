@@ -1,0 +1,32 @@
+# Install the AWS CLI if you don't already have it
+https://docs.aws.amazon.com/cli/latest/userguide/installing.html
+
+Install the awscli tool via python pip:
+pip install awscli --upgrade --user
+
+NOTE: On an Apple Mac, it is recommended to install an updated Python using brew.
+First, install Homebrew (a package manager):
+
+https://brew.sh/#install
+
+And then install python:
+
+brew install python
+
+NOTE: On windows, it is recommended to use the WSL or WSL 2 Linux subsystem.
+
+# Install the aws-iam-authenticator application
+
+https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
+
+# Install kubectl
+
+https://kubernetes.io/docs/tasks/tools/install-kubectl/
+
+# Install eksctl (admin only)
+
+https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html
+
+Note, this tool was developed by weaveworks.io and adopted by the AWS EKS community
+https://github.com/weaveworks/eksctl
+https://eksctl.io/

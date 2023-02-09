@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: eksuser
+---
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: eksuser
+  namespace: eksuser
+rules:
+- apiGroups: ["apps",""]
+  resources: ["deployments","pods","services","pods/log","pods/exec","ingresses"]
+  verbs: ["*"]
+---
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: eksuser
+  namespace: eksuser
+subjects:
+- kind: User
+  name: eksuser
+roleRef:
+  kind: Role
+  name: eksuser
+  apiGroup: rbac.authorization.k8s.io

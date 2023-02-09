@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "storageProxy": {
+      "matchCondition": {
+        "methods": [ "POST" ],
+        "route":  "/api/v1/photos"
+      },
+      "backendUri": "https://af4dev.azurewebsites.net/api/PhotosStorage"
+    },
+    "downloadProxy": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/v1/photos/{id}"
+      },
+      "backendUri": "https://af4dev.azurewebsites.net/api/Photos/{id}"
+    },
+    "searchProxy": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/v1/search"
+      },
+      "backendUri": "https://af4dev.azurewebsites.net/api/PhotosSearch"
+    }
+  }
+}
