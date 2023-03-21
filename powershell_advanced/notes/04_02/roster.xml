@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<roster>
+  <employee id="010101">
+    <name>Robertson, Robert</name>
+    <jobdescription>VP of Sales</jobdescription>
+    <date_of_hire>09/16/1998</date_of_hire>
+    <email_address>rrobertson@landonhotel.com</email_address>
+    <pe_3month>12/21/1998 Exceeds</pe_3month>
+    <pe_1year>09/17/1999 Exceeds</pe_1year>
+    <pe_5year>09/21/2003 Exceeds</pe_5year>
+    <pe_10year>09/19/2008 Meets</pe_10year>
+    <pe_15year>09/16/2013 Exceeds</pe_15year>
+    <pe_20year>09/17/2018 Exceeds</pe_20year>
+  </employee>
+  <employee id="020202">
+    <name>Jansdotter, Janice</name>
+    <jobdescription>VP of Marketing</jobdescription>
+    <date_of_hire>05/01/2002</date_of_hire>
+    <email_address>jjansdotter@landonhotel.com</email_address>
+    <pe_3month>08/02/2002 Exceeds</pe_3month>
+    <pe_1year>05/02/2003 Meets</pe_1year>
+    <pe_5year>05/1/2007 Meets</pe_5year>
+    <pe_10year>05/4/2012 Exceeds</pe_10year>
+    <pe_15year>05/5/2017 Exceeds</pe_15year>
+  </employee>
+  <employee id="030303">
+    <name>Chase, Montgomery</name>
+    <jobdescription>Director of Regulatory Compliance</jobdescription>
+    <date_of_hire>10/02/2017</date_of_hire>
+    <email_address>cmontgomery@landonhotel.com</email_address>
+    <pe_3month>01/02/2018 Exceeds</pe_3month>
+    <pe_1year>10/02/2018 Meets</pe_1year>
+  </employee>
+  <employee id="040404">
+    <name>White, Cindy</name>
+    <jobdescription>Director of IT</jobdescription>
+    <date_of_hire>05/11/2010</date_of_hire>
+    <email_address>cwhite@landonhotel.com</email_address>
+    <pe_3month>08/11/2010 Meets</pe_3month>
+    <pe_1year>05/11/2011 Meets</pe_1year>
+    <pe_5year>05/15/2015 Exceeds</pe_5year>
+  </employee>
+  <employee id="050505">
+    <name>Shepherd, William</name>
+    <jobdescription>Head Chef</jobdescription>
+    <date_of_hire>02/02/2016</date_of_hire>
+    <email_address>wshepherd@landonhotel.com</email_address>
+    <pe_3month>05/04/2016 Exceeds</pe_3month>
+    <pe_1year>02/07/2017 Exceeds</pe_1year>
+  </employee>
+  <employee id="060606">
+    <name>Patel, Iayana</name>
+    <jobdescription>Life Guard</jobdescription>
+    <date_of_hire>04/25/2017</date_of_hire>
+    <email_address>ipatel@landonhotel.com</email_address>
+    <pe_3month>07/25/2017 Meets</pe_3month>
+    <pe_1year>04/30/2018 Does not meet</pe_1year>
+  </employee>
+  <employee id="070707">
+    <name>Warren, Elena</name>
+    <jobdescription>Housekeeping</jobdescription>
+    <date_of_hire>08/22/2011</date_of_hire>
+    <email_address>ewarren@landonhotel.com</email_address>
+    <pe_3month>11/25/2011 Exceeds</pe_3month>
+    <pe_1year>08/24/2012 Exceeds</pe_1year>
+    <pe_5year>08/27/2016 Exceeds</pe_5year>
+  </employee>
+  <employee id="080808">
+    <name>Haney, Bernard</name>
+    <jobdescription>Housekeeping</jobdescription>
+    <date_of_hire>07/10/2017</date_of_hire>
+    <email_address>bhenry@landonhotel.com</email_address>
+    <pe_3month>10/10/2017 Does not meet</pe_3month>
+  </employee>
+  <employee id="090909">
+    <name>Mack, Cadence</name>
+    <jobdescription>Front Desk</jobdescription>
+    <date_of_hire>06/01/2015</date_of_hire>
+    <email_address>cmack@landonhotel.com</email_address>
+    <pe_3month>09/01/2015 Exeeds</pe_3month>
+    <pe_1year>06/02/2016 Exeeds</pe_1year>
+  </employee>
+  <employee id="101010">
+    <name>Ryan, Mira</name>
+    <jobdescription>Front Desk</jobdescription>
+    <date_of_hire>09/15/2015 </date_of_hire>
+    <email_address>mryan@landonhotel.com</email_address>
+    <pe_3month>12/15/2015 Meets</pe_3month>
+    <pe_1year>07/12/2018 Does not meet</pe_1year>
+  </employee>
+  <employee id="111111">
+    <name>Karter, Raymond</name>
+    <jobdescription>Restaurant Waiter</jobdescription>
+    <date_of_hire>05/22/2017</date_of_hire>
+    <email_address>rkarter@landonhotel.com</email_address>
+    <pe_3month>08/24/2017 Exeeds</pe_3month>
+    <pe_1year>05/26/2018 Exeeds</pe_1year>
+  </employee>
+  <employee id="121212">
+    <name>Mattioli, Allyn</name>
+    <jobdescription>Director of Finance</jobdescription>
+    <date_of_hire>05/06/2018</date_of_hire>
+    <email_address>amattioli@landonhotel.com</email_address>
+    <pe_3month>08/07/2018 Meets</pe_3month>
+  </employee>
+  <employee id="131313">
+    <name>McCoy, Dustin</name>
+    <jobdescription>Front Desk</jobdescription>
+    <date_of_hire>01/03/2018</date_of_hire>
+    <email_address>dmccoy@landonhotel.com</email_address>
+    <pe_3month>04/03/2018 Does not meet</pe_3month>
+  </employee>
+  <employee id="141414">
+    <name>Podgorski, Basil</name>
+    <jobdescription>Night Manager</jobdescription>
+    <date_of_hire>09/01/2016</date_of_hire>
+    <email_address>bpodgorski@landonhotel.com</email_address>
+    <pe_3month>12/03/2016 Exeeds</pe_3month>
+    <pe_1year>09/02/2017 Exeeds</pe_1year>
+  </employee>
+  <employee id="151515">
+    <name>Cavallon, Simon</name>
+    <jobdescription>Restaurant Cook</jobdescription>
+    <date_of_hire>04/11/2014</date_of_hire>
+    <email_address>scavallon@landonhotel.com</email_address>
+    <pe_3month>07/16/2014 Exeeds</pe_3month>
+    <pe_1year>04/16/2015 Does not Meet</pe_1year>
+  </employee>
+  <employee id="161616">
+    <name>Pennington, Iris</name>
+    <jobdescription>Restaurant Waitress</jobdescription>
+    <date_of_hire>11/30/2017</date_of_hire>
+    <email_address>ipennington@landonhotel.com</email_address>
+    <pe_3month>02/28/2018 Meets</pe_3month>
+  </employee>
+  <employee id="171717">
+    <name>Bright, Mylee</name>
+    <jobdescription>Director of Security</jobdescription>
+    <date_of_hire>08/17/2009</date_of_hire>
+    <email_address>mbright@landonhotel.com</email_address>
+    <pe_3month>11/18/2009 Exceeds</pe_3month>
+    <pe_1year>08/18/2010 Meets</pe_1year>
+    <pe_5year>08/18/2014 Meets</pe_5year>
+  </employee>
+  <employee id="181818">
+    <name>Smyth, Latosha</name>
+    <jobdescription>Housekeeping</jobdescription>
+    <date_of_hire>8/20/2018</date_of_hire>
+    <email_address>lsmyth@landonhotel.com</email_address>
+    <pe_3month>02/28/2018 Meets</pe_3month>
+  </employee>
+</roster>
